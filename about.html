@@ -1,6 +1,3 @@
-<?php
-$test = 0;
-?>
 <head>
 <!---Discord embed--->
 <meta property="og:title" content="Quartz's' Console" />
@@ -33,7 +30,6 @@ $test = 0;
 </head>
 
 
-<?php if (isset($_GET['about'])): $test = 1; ?>
 
 <body>
 <div id="center-screen">
@@ -56,85 +52,4 @@ This modpack is currently work-in-progress! Expect some bugs and issues.
 </div>
 
 </body>
-
-
-<?php endif ?>
-
-<?php if (isset($_GET['download'])): $test = 1; ?>
-
-<body>
-<div id="center-screen">
-<div class="box">
-<h1 style="font-family:minecraf-bold;">Download Quartz's Console</h1>
-<h2 class="about">
-<b style="color:#a80000">Requirements</b><br><span style="color:fc5454">
-1080p fullscreen, at least 16GB of RAM, and PrismLauncher
-</span>
-</h2>
-<br>
-<div class="list">
-<?php
-
-$files = scandir('downloads/', SCANDIR_SORT_DESCENDING);
-$newest_file = $files[0];
-
-echo '<a class="latest" href="downloads/'.$newest_file.'" download="'.$newest_file.'" onmouseover="hoverSound()" onclick="clickSound()" >Latest</a>';
-
-?>
-</div>
-<br>
-<div class="list">
-<?php
-$dir    = 'downloads/';
-
-$flies = array_values(array_diff(scandir($dir), array('..', '.')));
-
-for ($i = 0; $i < count($flies); $i++) {
-	$nozip = str_replace('.zip', '', $flies[$i]);
-    $shit = '<a class="mcbutton" href="downloads/' . $flies[$i] . '" onmouseover="hoverSound()" onclick="clickSound()" >'. $nozip .'</a><br><br>';
-
-
-
-echo $shit;
-
-
-}
-
-
-
-?>
-</div>
-</div>
-
-</body>
-
-
-<?php endif ?>
-
-
-
-<?php if ($test == 0): ?>
-
-<body>
-<div id="center-screen">
-<div class="box">
-<img id="meanie" src="media/logo.png">
-<br>
-<br>
-<!--<iframe id="meanie" width="560" height="315" src="https://www.youtube-nocookie.com/embed/rvlwWiskcLk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
-<br><br>
-
-<img class="gallery" src="media/gallery.png">
-
-
-
-
-<br><br>
-<a href="?download" class="mcbutton" onmouseover="hoverSound()" onclick="clickSound()" >Downloads</a>
-<a href="?about" class="mcbutton" onmouseover="hoverSound()" onclick="clickSound()" >About</a>
-</div>
-</body>
-<?php endif ?>
-
-
 

@@ -1,0 +1,204 @@
+/*  THIS IS ALL INSPIRED BY https://lemsite.derpbox.xyz/ I HAVE CODED ALOT OF IT MYSELF!! im still an ametuer but i try */
+/*  The stolen code is for the panorama body and box and buttons and a few other little things that i didnt want to type out on my own
+ the morals are confusing to me on how this kind of stuff works.
+ if you are derpbox feel free to talk to me
+	 if you are not check out their site or ill kick you in the shin
+ */
+
+
+@font-face {
+  font-family: 'minecraf';
+  src: url('media/Minecraft-LCE.ttf')
+}
+@font-face {
+  font-family: 'minecraf-bold';
+  src: url('media/Mojang-Bold.ttf')
+}
+
+body {
+	position: relative;
+	min-width: 100%;
+	min-height: 100%;
+	font-family: 'minecraf';
+	background-image: url('media/back.png');
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+	background-repeat: repeat-x;
+	animation: panorama 120s linear infinite;
+}
+
+@keyframes panorama {
+	0% {
+		background-position: 0;
+	}
+
+	100% {
+		background-position: calc(100vh / 144 * -820);
+	}
+}
+
+
+img {
+  -ms-interpolation-mode: nearest-neighbor;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
+#center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+#meanie {
+
+		max-width: 100%;
+
+}
+
+.box {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 50%;
+	padding: 5vh;
+	border-image: url('media/border.png');
+	border-image-slice: 128 128 fill;
+    border-image-width: 64px;
+	margin-top: 10px;
+	-ms-interpolation-mode: nearest-neighbor;
+	image-rendering: crisp-edges;
+	image-rendering: pixelated;
+}
+
+.boxteal {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 50%;
+	padding: 5vh;
+	border-image: url('media/borderteal.png');
+	border-image-slice: 138 138 fill;
+    border-image-width: 64px;
+	margin-top: 10px;
+	-ms-interpolation-mode: nearest-neighbor;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
+
+.mcbutton {
+	font-family: 'minecraf';
+	display: inline-block;
+	 line-height: 0;
+	padding: 0;
+	margin: 0;
+	border: none;
+	text-align: center;
+	line-height: 55px;
+	font-size: 20px;
+	width: 431;
+	height: 60;
+	background-size: cover;
+	image-rendering: pixelated;
+	text-decoration: none;
+	color: #ffffff;
+	text-shadow: 1px 1px 00 #000;
+	background-image: url('media/booton.png');
+	max-width: 100%;
+	max-height:auto;
+
+
+
+
+}
+
+.mcbutton:hover {
+		color: #ffff55;
+		background-image: url('media/bootonhover.png');
+		cursor: pointer;
+
+
+
+}
+
+.list {
+	display: grid;
+	justify-content: center;
+    gap: 8px;
+    margin: 8px;
+    grid-template-columns: auto;
+}
+
+h1 {
+	text-align:center;
+	color: #55FFFF ;
+		text-shadow: 3px 3px 00 #000;
+
+
+
+}
+
+
+.latest {
+
+		font-family: 'minecraf';
+	display: inline-block;
+	 line-height: 0;
+	padding: 0;
+	margin: 0;
+	border: none;
+	text-align: center;
+	line-height: 55px;
+	font-size: 20px;
+	width: 441;
+	height: 61;
+	background-size: cover;
+	image-rendering: pixelated;
+	text-decoration: none;
+	color: #ffffff;
+	text-shadow: 1px 1px 00 #000;
+	background-image: url('media/latestbooton.png');
+
+
+}
+
+
+.latest:hover {
+		color: #ffff55;
+		background-image: url('media/latestbootonhover.png');
+		cursor: pointer;
+
+}
+
+.about {
+	color: #ffffff;
+		text-shadow: 1px 1px 00 #000;
+
+}
+
+b {
+	font-family: minecraf-bold;
+
+}
+
+.link {
+	font-family: minecraf-bold;
+	text-decoration: none;
+	color: #ffff55;
+	text-shadow: 1px 1px 00 #000;
+
+
+}
+
+.gallery {
+	width: 90%;
+
+
+}
+

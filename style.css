@@ -236,6 +236,13 @@ b {
 
 }
 
+/* .mcbutton-small:hover {
+    background-image: url('media/smallbuttonhoover.png');
+  cursor: pointer;
+
+
+} */
+
 .mcbutton-small-gray {
   font-family: 'minecraf';
   display: inline-block;

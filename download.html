@@ -35,28 +35,114 @@
 <body>
 <div id="center-screen">
 <div class="box">
-<h1 style="font-family:minecraf-bold;">Downloads</h1>
-<h2 class="about">
-<b style="color:#a80000">Requirements</b><br><span style="color:fc5454">
-1080p fullscreen, at least 6GB+ of RAM <br> and PrismLauncher (or MultiMC-based Launchers)</span>
-<br><span style="font-size:12">if you get a security warning on the downloads it is because i am hosting the downloads myself you can use inspect element and check the link for yourself.</span><br>
-<a style="font-size:12" class="link" href="/why">learn more.</a>
+<p style="text-align:left;margin-top:-20;"><a href="/" class="back">X</a></p>
+<img id="meanie" src="media/logo.png">
+<p><span style="color: gray">Current version</span> <span id="latest-release"></span></p>
 
-</h2>
-<br>
-<div class="list">
- <a class="latest" href="https://github.com/Quartzmaven/QuartzsConsole/releases/tag/canary " onmouseover="hoverSound()" onclick="clickSound()" >Latest</a><br><br>
 
+<div class="downloadbox">
+<p style="color:#c9ff62;margin-top:-20;">Requirements: 1080p Resolution | 6GB+ RAM | PrismLauncher or MultiMc-based launchers</p>
 <br>
-<div class="list">
-<a class="mcbutton" href="http://quartzsdownloads.novassite.net:90/1.2.zip " onmouseover="hoverSound()" onclick="clickSound()" >1.2</a><br><br>
-<a class="mcbutton" href="http://quartzsdownloads.novassite.net:90/1.1.zip " onmouseover="hoverSound()" onclick="clickSound()" >1.1</a><br><br>
+
+<div class="flex-container">
+<span style="color:white;font-size:15">
+Latest
+<br>
+Version:
+</span>
+  <div class="flex-child">
+  <br>
+<a class="mcbutton-small">1.19.2</a><br>
+  <a class="goldlink" >Local</a><br>
+  <a href="https://github.com/Quartzmaven/QuartzsConsole/releases/tag/canary" class="goldlink" >GitHub</a><br>
+  </div>
+
+  <div class="flex-child">
+  <span style="color:yellow;font-size:15">Coming soon!</span><br>
+  <a class="mcbutton-small-gray">1.20.1</a><br>
+  <a class="unavalible" >Local</a><br>
+  <a class="unavalible" >GitHub</a><br>
+  </div>
+
+
 
 </div>
+
+</div>
+
+<div class="bottomdownload">
+
+  <div>
+<div class="downloadbox">
+<p style="color:#c9ff62;text-align:left;margin-top:-20;margin-left:-20">Older versions:</p>
+
+
+<p class="oldernames">
+1.3_canary (1977bbf)
+    <span class="olderoptions">
+[Local] <a class="olderlink" href="https://github.com/Quartzmaven/QuartzsConsole/releases/download/canary/QC_1.3_canary.mrpack">[Github]</a>
+    </span>
+</p>
+
+<p class="oldernames">
+1.2
+    <span class="olderoptions">
+<a class="olderlink" href="https://quartzsdownloads.novassite.net/1.2.zip">[Local]</a> [Github]
+    </span>
+</p>
+
+<p class="oldernames">
+1.1
+    <span class="olderoptions">
+<a class="olderlink" href="https://quartzsdownloads.novassite.net/1.1.zip">[Local]</a> [Github]
+    </span>
+</p>
+
+
+<p class="oldernames">
+1.0
+    <span class="olderoptions">
+<span class="unavalible">[Unavalible]</span>
+    </span>
+</p>
+
+  </div>
+  </div>
+
+  <div>
+<div class="downloadbox">
+<h2 class="why">Why is 1.0 unavailable?</h2>
+<p class="why">It's because of a personal file being accidentally shared, so it needs ti be removed.</p>
+  </div>
+  </div>
+
+
+
+</div>
+
+</div>
+
 </div>
 
 </body>
 
 
+    <script>
+        const owner = 'Quartzmaven'; // Replace with the actual owner of the repository
+        const repo = 'QuartzsConsole';   // Replace with the actual repository name
+
+        const latestReleaseElement = document.getElementById('latest-release');
+
+        fetch(`https://api.github.com/repos/${owner}/${repo}/releases/latest`)
+            .then(response => response.json())
+            .then(data => {
+                const latestReleaseName = data.name;
+                latestReleaseElement.textContent = latestReleaseName;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                latestReleaseElement.textContent = 'Error fetching latest release.';
+            });
+    </script>
 
 

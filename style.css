@@ -2,7 +2,7 @@
 /*  The stolen code is for the panorama body and box and buttons and a few other little things that i didnt want to type out on my own
  the morals are confusing to me on how this kind of stuff works.
  if you are derpbox feel free to talk to me
-	 if you are not check out their site or ill kick you in the shin
+  if you are not check out their site or ill kick you in the shin
  */
 
 
@@ -16,27 +16,27 @@
 }
 
 body {
-	position: relative;
-	min-width: 100%;
-	min-height: 100%;
-	font-family: 'minecraf';
-	background-image: url('media/back.png');
-	background-size: cover;
-	background-attachment: fixed;
-	margin: 0;
-	padding: 0;
-	background-repeat: repeat-x;
-	animation: panorama 120s linear infinite;
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
+  font-family: 'minecraf';
+  background-image: url('media/back.png');
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  background-repeat: repeat-x;
+  animation: panorama 120s linear infinite;
 }
 
 @keyframes panorama {
-	0% {
-		background-position: 0;
-	}
+  0% {
+  background-position: 0;
+  }
 
-	100% {
-		background-position: calc(100vh / 144 * -820);
-	}
+  100% {
+  background-position: calc(100vh / 144 * -820);
+  }
 }
 
 
@@ -57,61 +57,61 @@ img {
 
 #meanie {
 
-		max-width: 100%;
+  max-width: 100%;
 
 }
 
 .box {
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	width: 50%;
-	padding: 5vh;
-	border-image: url('media/border.png');
-	border-image-slice: 128 128 fill;
-    border-image-width: 64px;
-	margin-top: 10px;
-	-ms-interpolation-mode: nearest-neighbor;
-	image-rendering: crisp-edges;
-	image-rendering: pixelated;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50%;
+  padding: 5vh;
+  border-image: url('media/border.png');
+  border-image-slice: 128 128 fill;
+  border-image-width: 64px;
+  margin-top: 10px;
+  -ms-interpolation-mode: nearest-neighbor;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
 }
 
 .boxteal {
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	width: 50%;
-	padding: 5vh;
-	border-image: url('media/borderteal.png');
-	border-image-slice: 138 138 fill;
-    border-image-width: 64px;
-	margin-top: 10px;
-	-ms-interpolation-mode: nearest-neighbor;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50%;
+  padding: 5vh;
+  border-image: url('media/borderteal.png');
+  border-image-slice: 138 138 fill;
+  border-image-width: 64px;
+  margin-top: 10px;
+  -ms-interpolation-mode: nearest-neighbor;
   image-rendering: crisp-edges;
   image-rendering: pixelated;
 }
 
 
 .mcbutton {
-	font-family: 'minecraf';
-	display: inline-block;
-	 line-height: 0;
-	padding: 0;
-	margin: 0;
-	border: none;
-	text-align: center;
-	line-height: 55px;
-	font-size: 20px;
-	width: 431;
-	height: 60;
-	background-size: cover;
-	image-rendering: pixelated;
-	text-decoration: none;
-	color: #ffffff;
-	text-shadow: 1px 1px 00 #000;
-	background-image: url('media/booton.png');
-	max-width: 100%;
-	max-height:auto;
+  font-family: 'minecraf';
+  display: inline-block;
+  line-height: 0;
+  padding: 0;
+  margin: 0;
+  border: none;
+  text-align: center;
+  line-height: 55px;
+  font-size: 20px;
+  width: 431;
+  height: 60;
+  background-size: cover;
+  image-rendering: pixelated;
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 1px 1px 00 #000;
+  background-image: url('media/booton.png');
+  max-width: 100%;
+  max-height:auto;
 
 
 
@@ -119,26 +119,26 @@ img {
 }
 
 .mcbutton:hover {
-		color: #ffff55;
-		background-image: url('media/bootonhover.png');
-		cursor: pointer;
+  color: #ffff55;
+  background-image: url('media/bootonhover.png');
+  cursor: pointer;
 
 
 
 }
 
 .list {
-	display: grid;
-	justify-content: center;
-    gap: 8px;
-    margin: 8px;
-    grid-template-columns: auto;
+  display: grid;
+  justify-content: center;
+  gap: 8px;
+  margin: 8px;
+  grid-template-columns: auto;
 }
 
 h1 {
-	text-align:center;
-	color: #55FFFF ;
-		text-shadow: 3px 3px 00 #000;
+  text-align:center;
+  color: #55FFFF ;
+  text-shadow: 3px 3px 00 #000;
 
 
 
@@ -147,58 +147,213 @@ h1 {
 
 .latest {
 
-		font-family: 'minecraf';
-	display: inline-block;
-	 line-height: 0;
-	padding: 0;
-	margin: 0;
-	border: none;
-	text-align: center;
-	line-height: 55px;
-	font-size: 20px;
-	width: 441;
-	height: 61;
-	background-size: cover;
-	image-rendering: pixelated;
-	text-decoration: none;
-	color: #ffffff;
-	text-shadow: 1px 1px 00 #000;
-	background-image: url('media/latestbooton.png');
+  font-family: 'minecraf';
+  display: inline-block;
+  line-height: 0;
+  padding: 0;
+  margin: 0;
+  border: none;
+  text-align: center;
+  line-height: 55px;
+  font-size: 20px;
+  width: 441;
+  height: 61;
+  background-size: cover;
+  image-rendering: pixelated;
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 1px 1px 00 #000;
+  background-image: url('media/latestbooton.png');
 
-
-}
-
-
-.latest:hover {
-		color: #ffff55;
-		background-image: url('media/latestbootonhover.png');
-		cursor: pointer;
 
 }
 
 .about {
-	color: #ffffff;
-		text-shadow: 1px 1px 00 #000;
+  color: #ffffff;
+  text-shadow: 1px 1px 00 #000;
 
 }
 
 b {
-	font-family: minecraf-bold;
+  font-family: minecraf-bold;
 
 }
 
 .link {
-	font-family: minecraf-bold;
-	text-decoration: none;
-	color: #ffff55;
-	text-shadow: 1px 1px 00 #000;
+  font-family: minecraf-bold;
+  text-decoration: none;
+  color: #ffff55;
+  text-shadow: 1px 1px 00 #000;
 
 
 }
 
 .gallery {
-	width: 90%;
+  width: 90%;
 
 
 }
 
+.downloadbox {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 5vh;
+  border-image: url('media/tealboxinner.png');
+  border-image-slice: 159 159 fill;
+  border-image-width: 64px;
+  margin-top: 10px;
+  -ms-interpolation-mode: nearest-neighbor;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  font-size: 14;
+}
+
+
+.mcbutton-small {
+  font-family: 'minecraf';
+  display: inline-block;
+  line-height: 0;
+  padding: 0;
+  margin: 0;
+  border: none;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  width: 126;
+  height: 48;
+  background-size: cover;
+  image-rendering: pixelated;
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 1px 1px 00 #000;
+  background-image: url('media/smallbutton.png');
+  max-width: 100%;
+  max-height:auto;
+
+
+
+
+}
+
+.mcbutton-small-gray {
+  font-family: 'minecraf';
+  display: inline-block;
+  line-height: 0;
+  padding: 0;
+  margin: 0;
+  border: none;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  width: 126;
+  height: 48;
+  background-size: cover;
+  image-rendering: pixelated;
+  text-decoration: none;
+  color: #5c5c5c;
+  text-shadow: 1px 1px 00 #000;
+  background-image: url('media/smalbuttongray.png');
+  max-width: 100%;
+  max-height:auto;
+
+
+
+
+}
+
+/*.mcbutton-small:hover {
+  color: #ffff55;
+  background-image: url('media/bootonhover.png');
+  cursor: pointer;
+
+
+
+}*/
+
+
+
+.flex-container {
+    display: flex;
+	align-items:center;
+	width:50%;
+		margin-left:auto;
+margin-right:auto;
+
+}
+
+.flex-child {
+    flex: 1;
+         flex-basis: 20%;
+}
+
+.flex-child:first-child {
+    margin-right: 10px;
+
+
+
+
+}
+
+
+.bottomdownload {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+
+
+}
+
+
+
+
+
+.olderoptions {
+	color:#ff3f3f;
+	float:right;
+margin-bottom:-15;
+}
+
+.olderlink {
+	    text-decoration: none;
+
+}
+
+.olderlink:link, .olderlink:visited{
+		color:#ff9c00;
+
+}
+
+.oldernames{
+	color:white;
+	text-align:left;
+margin-bottom:-15;
+}
+
+.why {
+	margin-top:-15;
+
+	text-align:left;
+	color:white;
+
+}
+
+.goldlink {
+  text-decoration: none;
+	color:#ff9c00;
+
+}
+
+.unavalible {
+	color:#ff3f3f
+}
+
+.back {
+	    text-decoration: none;
+
+}
+
+.back:link, .back:visited{
+		color:gray;
+
+}

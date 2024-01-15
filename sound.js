@@ -9,11 +9,11 @@ if (elements.length > 0) {
 }
 
 function clickSound() {
-  var clickSound = new Audio("media/click.mp3");
+  var clickSound = new Audio("/media/click.mp3");
   clickSound.play();
 }
 
 function hoverSound() {
-  var hoverSound = new Audio("media/hover.mp3");
+  var hoverSound = new Audio("/media/hover.mp3");
   hoverSound.play();
 }

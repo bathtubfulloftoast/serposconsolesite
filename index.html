@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#bdbdbd" />
 
 <title>Quartz's Console</title>
-
+<noscript> <meta http-equiv="refresh" content="0;url=/mobile"> </noscript>
         <link rel="icon" href="favicon.ico">
 
 
@@ -26,7 +26,12 @@
 	<audio id="click">
 		<source src="media/click.mp3" type="audio/mpeg">
 	</audio>
+<script type="module" defer>
+      if (window.innerWidth < 1280) {
+    window.location.href = "/mobile";
+}
 
+  </script>
 </head>
 
 <body>

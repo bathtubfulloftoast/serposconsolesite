@@ -1,0 +1,97 @@
+<head>
+<!---Discord embed--->
+<meta property="og:title" content="Quartz's Console" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="Quartz's Console is a modpack that aims to recreate Minecraft Legacy Console in Java." />
+<meta name="theme-color" content="#bdbdbd" />
+
+<title>Quartz's Console</title>
+
+        <link rel="icon" href="/favicon.ico">
+
+
+<link rel="stylesheet" href="/mobile/style.css">
+<link rel="preload" as="image" href="/media/bootonhover.png">
+<link rel="preload" as="image" href="/media/booton.png">
+<link rel="preload" as="audio" href="/media/hover.mp3">
+<link rel="preload" as="audio" href="/media/click.mp3">
+
+
+<script src="sound.js"></script>
+
+<audio id="hover">
+		<source src="/media/hover.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="click">
+		<source src="/media/click.mp3" type="audio/mpeg">
+	</audio>
+
+</head>
+
+</body>
+
+
+<body>
+<div class="box">
+<p style="text-align:left;margin-top:-20;font-size:25"><a href="/" class="back">x</a></p>
+<img id="meanie" src="/media/logo.png">
+<p><span style="color: gray">Current version</span> <span id="latest-release"></span></p>
+
+<div class="downloadbox">
+<p style="color:#c9ff62;margin-top:-20;">Requirements: 1080p Resolution | 6GB+ RAM | PrismLauncher or MultiMC-based launchers | PC</p>
+<br>
+<span style="color:white;font-size:15">
+</span>
+  <br>
+<a href="https://modrinth.com/modpack/quartzs-console" class="mcbutton-small">1.19.2</a><br>
+
+
+  <span style="color:yellow;font-size:15">Coming soon!</span><br>
+  <a class="mcbutton-small-gray">1.20.1</a><br>
+
+
+
+
+</div>
+
+
+
+
+  <div>
+<div class="downloadbox">
+<h2 class="why">Why is 1.0 unavailable?</h2>
+<p class="why">It's because of a personal file being accidentally shared, so it needs to be removed.</p>
+  </div>
+  </div>
+
+
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+
+
+    <script>
+        const owner = 'Quartzmaven'; // Replace with the actual owner of the repository
+        const repo = 'QuartzsConsole';   // Replace with the actual repository name
+
+        const latestReleaseElement = document.getElementById('latest-release');
+
+        fetch(`https://api.github.com/repos/${owner}/${repo}/releases/latest`)
+            .then(response => response.json())
+            .then(data => {
+                const latestReleaseName = data.name;
+                latestReleaseElement.textContent = latestReleaseName;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                latestReleaseElement.textContent = 'Error fetching latest release.';
+            });
+    </script>
+
+

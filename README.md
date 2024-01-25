@@ -22,3 +22,12 @@ weather it just be in the comments or publicly idrc
 
 ### Installation
 these are just your bog standard html files no real installation to speak of
+
+### TODO
+- [ ] scrolling videos
+- [ ] video js implementation
+- [ ] theme for said video js
+- [ ] better support for low res/nonjs pc browsers
+- [ ] better mobile detection (just checks screensize)
+- [ ] better mobile implementation in general (dont just redirect to seperate indexes)
+- [ ] put modrinth on pc page

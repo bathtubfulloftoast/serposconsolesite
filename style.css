@@ -21,6 +21,7 @@ body {
   min-height: 100%;
   font-family: 'minecraf';
   background-image: url('media/back.png');
+  backdrop-filter:blur(10px);
   background-size: cover;
   background-attachment: fixed;
   margin: 0;
@@ -209,6 +210,20 @@ b {
   font-size: 14;
 }
 
+.downloadbox2 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 5vh;
+  border-image: url('media/blueboxinner.png');
+  border-image-slice: 159 159 fill;
+  border-image-width: 64px;
+  margin-top: 10px;
+  -ms-interpolation-mode: nearest-neighbor;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  font-size: 14;
+}
 
 .mcbutton-small {
   font-family: 'minecraf';
@@ -236,6 +251,11 @@ b {
 
 }
 
+.mcbutton-small-hover:hover {
+
+  background-image: url('media/smallbuttonhoover.png');
+
+}
 /* .mcbutton-small:hover {
     background-image: url('media/smallbuttonhoover.png');
   cursor: pointer;

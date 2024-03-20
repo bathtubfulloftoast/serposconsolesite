@@ -12,16 +12,13 @@ or [modrinth](https://modrinth.com/modpack/serpos-console)
 
 ## Github Specific Info
 ### Credits
-most important thanks to [@serpomaven](https://github.com/serpomaven) for making the modpack and basic layouts in the first place without him this site would not have a reason to exist
-very big thank you to [@DBTDerpbox](https://github.com/DBTDerpbox) for allowing me to mostly recreate the design she used for her [legacy edition minigames site](https://github.com/Legacy-Edition-Minigames/Website)
+[@serpo](https://modrinth.com/user/serpo) - Serpos Console Creator
+[@DBTDerpbox](https://github.com/DBTDerpbox) - [Design Inspiration](https://github.com/Legacy-Edition-Minigames/Website)
 
 ### Replication
 if you wish to use any of this code *despite its messiness* feel free to
 just make sure to link to this github and the [legacy edition minigames site](https://github.com/Legacy-Edition-Minigames/Website)
 weather it just be in the comments or publicly idrc
-
-### Installation
-these are just your bog standard html files no real installation to speak of
 
 ### TODO
 - [ ] scrolling videos

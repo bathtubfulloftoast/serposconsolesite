@@ -7,8 +7,7 @@ serpo's Console is a modpack that aims to recreate Minecraft Legacy Console in J
 
 ## Where Else To Find It
 first and foremost you can find it on [the website this repo is for](https://serposconsole.novassite.net/)
-you can also find it [on its own github](https://github.com/quarrtzaven/QuartzConsole)
-or [modrinth](https://modrinth.com/modpack/serpos-console)
+you can also find it on [modrinth](https://modrinth.com/modpack/serpos-console)
 
 ## Github Specific Info
 ### Credits

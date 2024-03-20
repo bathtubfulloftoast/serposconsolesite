@@ -20,10 +20,7 @@ just make sure to link to this github and the [legacy edition minigames site](ht
 weather it just be in the comments or publicly idrc
 
 ### TODO
-- [ ] scrolling videos
-- [ ] video js implementation
-- [ ] theme for said video js
 - [ ] better support for low res/nonjs pc browsers
 - [ ] better mobile detection (just checks screensize)
 - [ ] better mobile implementation in general (dont just redirect to seperate indexes)
-- [ ] put modrinth on pc page
+- [X] put modrinth on pc page

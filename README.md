@@ -24,3 +24,4 @@ weather it just be in the comments or publicly idrc
 - [ ] better mobile detection (just checks screensize)
 - [ ] better mobile implementation in general (dont just redirect to seperate indexes)
 - [X] put modrinth on pc page
+- [ ] rewrite code so its not a mess of letters

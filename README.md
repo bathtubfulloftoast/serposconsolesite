@@ -1,5 +1,5 @@
 # SERPOS CONSOLE HAS BEEN DISCONTINUED.
-for an official note on how i feel and where to go after this you can click on [this](final message.md)
+for an official note on how i feel and where to go after this you can check my [final message](FINAL.md)
 
 # [serposconsolesite](https://serposconsole.novassite.net/)
 ## the website for serposconsole.

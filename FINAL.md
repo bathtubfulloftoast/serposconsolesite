@@ -4,7 +4,7 @@ Serpos console has been oficially discontinued as of april 14th 2024 after almos
 As i understand it serpos console was discontinued due to general demotivation
 After a confusing merge between quartz console and serpos console everything just fell apart.
 
-What got you into developing for quartz/serpo?
+# What got you into developing for quartz/serpo?
 After an official beta release on the minecraft architect server on 03/27/2023 quartzs console i had seen that quartzmaven (the guy from the thing) had been sharing quartzconsole releases via dropbox.
 After seeing that and going “i wish these releases could all be in once place. … wait i can do that.” then i had asked him “hey do you want a site?”
 And he said yes!
